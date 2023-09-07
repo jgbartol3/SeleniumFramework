@@ -1,0 +1,62 @@
+{
+  "FileDownloadWaitIntervalMS": 5000,
+  "FileDownloadWaitRetries": 15,
+  "DriverTimeOutSeconds": 45,
+  "ExplicitWaitPollingIntervalSeconds": 500,
+  "ExceptionLogPath": "\\Tests\\TestResults\\Failures\\",
+  "FileDownloadPath": "Microsoft\\Windows\\Network Shortcuts\\",
+  "PageLoadTimeOutMessage": "Loading Screen Timeout After This Many Milleseconds:",
+  "DriverDbConnectionString": "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\jbartol\\source\\repos\\CompassSelenium\\Driver\\DriverDatabase\\DriverDB.mdf;Integrated Security=True",
+  "ToLogExceptions": true,
+  "ToLogExceptionsToDB": false,
+  "ChromeConfigOptions": [
+
+    {
+      "Key": "--headless",
+      "IsEnabled": false
+    },
+    {
+      "Key": "--start-maximized",
+      "IsEnabled": true
+    },
+    {
+      "Key": "disable-extensions",
+      "IsEnabled": false
+    },
+    {
+      "Key": "make-default-browser",
+      "IsEnabled": false
+    },
+    {
+      "Key": "disable-popup-blocking",
+      "IsEnabled": false
+    },
+    {
+      "Key": "--whitelisted-ips=\"\"",
+      "IsEnabled": true
+    },
+    {
+      "Key": "ACCEPT_SSL_CERTS",
+      "IsEnabled": false
+    }
+
+
+  ],
+
+  "UserProfilePreferences": [
+    {
+      "Key": "browserName",
+      "Value": "chrome"
+    },
+    {
+      "Key": "platform",
+      "Value": "windows"
+    },
+    {
+      "Key": "version",
+      "Value": "94"
+    }
+  ]
+
+
+}
